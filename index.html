@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://kit.fontawesome.com/2f0b293b5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- 头部开始-->
+        <header id="header">
+            <!-- 上部分 -->
+            <div class="headerTop">
+                <!-- 上部分版心 -->
+                <div class="headerTopMain">
+                    <!-- 左侧 -->
+                    <div class="left">
+                        <h5>Wecome to Gmall Please</h5>
+                        <p>
+                            <a href="javascript:;">Log in</a>
+                            <a href="javascript:;">Sign up</a>
+                        </p>
+                    </div>
+                    <!-- 右侧 -->
+                    <div class="right">
+                        <nav>
+                            <!--javascript:;禁止超链接跳转 -->
+                            <a href="javascript:;">My Order</a>
+                            <a href="javascript:;">My Cart</a>
+                            <a href="javascript:;">My Gmall</a>
+                            <a href="javascript:;">Company Purchase</a>
+                            <a href="javascript:;">Follow Gmall</a>
+                            <a href="javascript:;">Cooperation & Investment</a>
+                            <a href="javascript:;">Tenant Backend</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- 下部分 -->
+            <div class="headerLow">
+                <!-- 版心 -->
+                <div class="headerLowMain">
+                    <!-- 左侧logo -->
+                    <div class="logo">
+                        <a href="javascript:;">
+                            <img src="./images/logo.png" >
+                            <!-- <i class="fa fa-stumbleupon"></i> -->
+                        </a>
+                    </div>
+                    <!-- 右侧搜索框 -->
+                    <div class="search" >
+                        <input  type="text"   placeholder="SEARCH"/>
+                        <input type="submit" value="Go"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 分类导航栏 -->
+        <div id="navWrap">
+            <div class="navWrapMain">
+                <a href="javascript:;">All Categories</a>
+                <a href="javascript:;">Fashion</a>
+                <a href="javascript:;">Beauty Products</a>
+                <a href="javascript:;">Gmall</a>
+                <a href="javascript:;">Global Shopping</a>
+                <a href="javascript:;">Flash Sale</a>
+                <a href="javascript:;">Group Buy</a>
+                <a href="javascript:;">Fun</a>
+                <a href="javascript:;">Spike</a>
+
+            </div>
+        </div>
+        <!-- 内容区域 -->
+        <div id="content">
+            <div class="contentMain">
+                <!-- 路径导航 -->
+                <div id="navPath"></div>
+                <!-- 放大镜效果开始 -->
+                <div id="center">
+                    <!-- 左侧放大镜 -->
+                    <div id="left">
+                        <!-- 上面大图 -->
+                        <div id="leftTop">
+                            <!-- 小图框 -->
+                            <div id="smallPic">
+                                <!-- 小图片 -->
+                                <img src="./images/s1.png" alt=""/>
+                            </div>
+                        </div>
+                       <!-- 下面缩略图 -->
+                        <div id="leftBottom">
+                            <a href="javascript:;"><</a>
+                            <div id="piclist">
+                                <ul>
+                                    <!-- 动态渲染图片 -->
+                                </ul>
+                            </div>
+                            <a href="javascript:;">></a>
+                        </div>
+                    </div>
+                   <!-- 右侧 -->
+                    <div id="right">
+                        <!--右上半部分商品详情数据开始-->
+                        <div class="rightTop"></div>
+                        <!--右上半部分商品详情数据结束-->
+                        <!--右下半部分商品参数选择开始-->
+                        <div class="rightBottom">
+                            <div class="choose"></div>
+                            <div class="chooseWrap"></div>
+                            <!-- 商品参数选择区结束 -->
+                            <!-- 加入购物车开始 -->
+                            <div class="addCart">
+                                <div class="count">
+                                    <input type="text">
+                                    <a href="javascript:;">+</a>
+                                    <a href="javascript:;">-</a>
+                                </div>
+                                <button>Add to Cart</button>
+                            </div>
+                            <!-- 加入购物车结束 -->
+                        </div>
+                        <!--右下半部分商品参数数据结束-->
+                    </div>
+                </div>
+                <!--中间区域结束 -->
+                <!--商品详情中间部分开始 -->
+                <div class="goodsDetailWrap">
+                          <!--左边侧边栏开始 -->
+                          <aside class="leftAside">
+                                <!--上边 -->
+                                <div class="asideTop">
+                                    <h4 class="active">Categories</h4>
+                                    <h4 >Recommendation</h4>
+                                </div>
+                                <!--下边 -->
+                                <div class="asideContent">
+                                    <div class="active">
+                                        <ul class="goodslist1">
+                                           <li>Phone</li>
+                                           <li>Phone Case</li>
+                                           <li>Memory Card</li>
+                                           <li>iphone Accessories</li>
+                                           <li>Film</li>
+                                           <li>Earplug</li>
+                                           <li>Portable Recharger</li>
+                                           <li>Pad</li>
+                                        </ul>
+                                        <ul class="goodslist2">
+                                           <li>
+                                               <img src="images/part01.png" alt="">
+                                               <span>Apple iPhone 6s (A1699)</span>
+                                               <p>¥6088.00</p>
+                                               <div class="button">
+                                                   <a href="javascript:;">Add to Cart</a>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <img src="images/part01.png" alt="">
+                                               <span>Apple iPhone 6s (A1699)</span>
+                                               <p>¥6088.00</p>
+                                               <div class="button">
+                                                   <a href="javascript:;">Add to Cart</a>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <img src="images/part01.png" alt="">
+                                               <span>Apple iPhone 6s (A1699)</span>
+                                               <p>¥6088.00</p>
+                                               <div class="button">
+                                                   <a href="javascript:;">Add to Cart</a>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <img src="images/part01.png" alt="">
+                                               <span>Apple iPhone 6s (A1699)</span>
+                                               <p>¥6088.00</p>
+                                               <div class="button">
+                                                   <a href="javascript:;">Add to Cart</a>
+                                               </div>
+                                           </li>
+                                        </ul>
+                                    </div>
+                                    <div></div>
+                                </div>
+                          </aside>
+                          <!--左边侧边栏结束 -->
+                          <!--右边栏开始 -->
+                          <div class="rightDetail">
+                                  <!--选择搭配开始 -->
+                                <div class="chooseBox">
+                                        <!--标题 -->
+                                        <h4>Select</h4>
+                                        <!--内容 -->
+                                        <div class="listWrap">
+                                            <!--左 -->
+                                            <div class="left">
+                                                <img src="./images/l-m01.png" alt="">
+                                                <p>¥5299</p>
+                                                <i>+</i>
+                                            </div>
+                                            <!--中 -->
+                                            <ul class="middle">
+                                                <li>
+                                                    <img src="./images/dp01.png" alt="">
+                                                    <span>Feless VR</span>
+                                                    <div>
+                                                        <input type="checkbox" value="20">
+                                                        <span>20</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/dp02.png" alt="">
+                                                    <span>Feless  VR</span>
+                                                    <div>
+                                                        <input type="checkbox" value="50">
+                                                        <span>50</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/dp03.png" alt="">
+                                                    <span>Feless  VR</span>
+                                                    <div>
+                                                        <input type="checkbox" value="150">
+                                                        <span>150</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/dp04.png" alt="">
+                                                    <span>Feless  VR</span>
+                                                    <div>
+                                                        <input type="checkbox" value="80">
+                                                        <span>80</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <!--右 -->
+                                            <div class="right">
+                                                <div>Purchased 0 Pieces</div>
+                                                <p>套餐价</p>
+                                                <i>¥5299</i>
+                                                <div>
+                                                    <button>Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                    <!--选项卡开始 -->
+                                <div class="bottomDetail">
+                                    <ul class="tabBtns">
+                                        <li class="active"><a href="javascript:;">Desciption</a></li>
+                                        <li><a href="javascript:;">Specification</a></li>
+                                        <li><a href="javascript:;">Warranty</a></li>
+                                        <li><a href="javascript:;">Review</a></li>
+                                        <li><a href="javascript:;">Community</a></li>
+                                    </ul>
+                                    <div class="tabContents">
+                                        <div class="active">
+                                            <ul>
+                                                <li>Resolution:1920*1080</li>
+                                                <li>Front Camera:5m px</li>
+                                                <li>Back Camera:12m px</li>
+                                                <li>CPU:</li>
+                                                <li>Frequency: subject to network management information</li>
+                                                <li>Brand:Apple</li>
+                                                <li>Name:Apple iPhone6s plus</li>
+                                                <li>Code:1861098</li>
+                                                <li>Made in:China</li>
+                                                <li>Net Weight:0.51kg</li>
+                                                <li>Hot Feature: Fingerprint recognition, metal body, photo artifact</li>
+                                                <li>system:IOS</li>
+                                                <li>Pixels: 10 million/16 million products Gross weight 0.51kg</li>
+                                                <li>Body memory:64GB</li>
+                                            </ul>
+                                            <img src="./images/intro01.png" alt="pic">
+                                            <img src="./images/intro02.png" alt="pic">
+                                            <img src="./images/intro03.png" alt="pic">
+                                        </div>
+                                        <div>规格包装</div>
+                                        <div>售后保障</div>
+                                        <div>商品评价</div>
+                                        <div>手机社区</div>
+                                    </div>
+                                </div>
+
+                          </div>
+                       
+                        <!--右边栏结束 -->
+                </div>
+
+                <!--商品详情中间部分结束 -->
+
+            </div>
+        </div>
+
+    </div>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
